@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()], 
-  base: "/Lord-Of-The-Ring--FanPage/",
+  base: "/lord_fans/",
 })
