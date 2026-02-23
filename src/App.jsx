@@ -1,12 +1,12 @@
-import { RouterProvider, createHashRouter, Navigate, Outlet } from 'react-router-dom';import Home from './pages/Home';
+import { RouterProvider, createHashRouter, Navigate, Outlet } from 'react-router-dom';
+import Home from './pages/Home';
 import Movies from './pages/Movies';
 import Characters from './pages/Characters';
 import Games from './pages/Games';
 
 import Footer from './components/footer';
 import Header from './components/header';
-import { Navigate } from 'react-router-dom';
-import { Children } from 'react';
+
 
 
 // Making a Functional using a 'Arrow Function' - in this way we can make a new function without parameters
