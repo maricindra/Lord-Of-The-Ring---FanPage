@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-parfumerie: "ParfumerieScript", "cursive";
+  --font-cocogothic: "CocoGothic", "sans-serif";
+
+  --color-golden_old: #91713c;
+  --color-brown_grey: #623e29;
+  --color-green_old: #4f6146;
+}
+
+@font-face {
+  font-family: 'ParfumerieScript';
+  src: url('./assets/fonts/ParfumerieScriptText.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CocoGothic';
+  src: url('./assets/fonts/CocoGothic_trial.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* @theme        - Allow(permite) to define custom properties for theming purposes
+   @font-face    - Allow(permite) to storage custom fonts in the project and use them throughout the CSS
