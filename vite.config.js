@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // Sem nada dentro dos parênteses
-  ],
+    tailwindcss()], 
+  base: "/Lord-Of-The-Ring--FanPage/",
 })
