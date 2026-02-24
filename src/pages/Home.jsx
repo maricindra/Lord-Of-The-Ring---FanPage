@@ -18,8 +18,7 @@ function Home() {
   <section className="relative z-30 bg-black py-20 px-10 ">
     <Squad_topics/>
 
-
-      <h1 className="text-center text-4xl font-bold text-brown_grey mb-10 font-parfumerie text-8xl  tracking-[0.2em]">Resume</h1>
+      <h1 className="text-center text-brown_grey mb-10 font-parfumerie text-8xl tracking-[0.2em]">Resume</h1>
       <div className="flex-1 flex items-center mx-auto py-10 text-center md:flex-row gap-4 uppercase tracking-[0.3em] text-green03">
       <p className="text-center text-sm text-green03 mt-10">
       The Lord of the Rings is an epic adventure film trilogy directed by Peter Jackson. 
