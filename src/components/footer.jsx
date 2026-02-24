@@ -7,9 +7,10 @@ function Footer() {
   return (
 
       <div className='flex flex-col items-center justify-center '>
-        <h1 className="text-golden_old center font-cocogothic tracking-[0.4em] uppercase">Lord of the ring</h1>
-        <Spline className="w-30 h-30 md:w-100 md:h-100 justify-center items-center flex flex-col mx-auto py-10 gap-10"
-        scene="https://prod.spline.design/dEMJaIsLBCWJx-2w/scene.splinecode" />
+        <h1 className='text-golden_old center font-cocogothic tracking-[0.4em] uppercase'>Lord of the ring</h1>
+        <div className='w-full h-40'>
+        <Spline className="w-10 h-10 flex flex-col mx-auto  gap-10"
+        scene="https://prod.spline.design/dEMJaIsLBCWJx-2w/scene.splinecode" /></div>
       
     <Playlist/>
 </div>
