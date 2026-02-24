@@ -17,6 +17,25 @@ function Home() {
 {/* New Section, after the video apresentation */}
   <section className="relative z-30 bg-black py-20 px-10 ">
     <Squad_topics/>
+
+
+
+      <h1 className="text-center text-4xl font-bold text-brown_grey mb-10">Resume</h1>
+      <div className="flex-1 flex items-center mx-auto py-10 text-center md:flex-row gap-4  ">
+      <p className="text-center text-sm text-green03 mt-10">
+      The Lord of the Rings is an epic adventure film trilogy directed by Peter Jackson. 
+      The three films—titled The Fellowship of the Ring, The Two Towers, and The Return 
+      of the King—were released consecutively between December 2001 and 2003. The 
+      trilogy is based on the epic novel of the same name by J. R. R. Tolkien and was 
+      adapted for the screen by Jackson, Fran Walsh, and Philippa Boyens. The story is 
+      set in the fictional world of Middle-earth and follows the journey of Frodo Baggins
+      and the Fellowship of the Ring as they attempt to destroy the One Ring, forged by 
+      Sauron. A large cast was hired for the three films, including Elijah Wood, Ian 
+      McKellen, Viggo Mortensen, Sean Astin, Orlando Bloom, Liv Tyler, John Rhys-Davies,
+      Sean Bean, Billy Boyd, Dominic Monaghan, Andy Serkis, Cate Blanchett, Christopher Lee, 
+      Hugo Weaving, Ian Holm, John Noble, Bernard Hill, David Wenham, Miranda Otto, Karl Urban,
+      and Brad Dourif.
+      </p></div>
     </section>
     </main>
  );
